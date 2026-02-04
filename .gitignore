@@ -5,10 +5,10 @@
 __pycache__/
 *.pyc
 
-# Data & results (keep structure, not contents)
-data/raw/*
-data/processed/*
-results/*
+# # Data & results (keep structure, not contents)
+# data/raw/*
+# data/processed/*
+# results/*
 
 # OS / editor junk
 .DS_Store
