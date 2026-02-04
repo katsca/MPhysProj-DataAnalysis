@@ -1,0 +1,24 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Data & results (keep structure, not contents)
+data/raw/*
+data/processed/*
+results/*
+
+# OS / editor junk
+.DS_Store
+.vscode/
+.idea/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log

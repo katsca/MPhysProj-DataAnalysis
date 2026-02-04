@@ -1,0 +1,15 @@
+[project]
+name = "stabilizer-data-analysis"
+version = "0.1.0"
+description = "Data analysis for stabilizer system"
+requires-python = ">=3.10"
+
+dependencies = [
+    "numpy",
+    "scipy",
+    "pandas",
+    "matplotlib",
+]
+
+[project.scripts]
+fft = "src.fft:main"
